@@ -10,28 +10,28 @@ See where your money goes.
 
 	{
 		"Chase": {
-			"user": "",		/* Account username */
-			"pass": "",		/* Account password */
-			"accid": 0000,  /* Account number */
-			"bankid": null,	/* Bank routing number (if bank account) */
-			"acctype": "CREDITCARD",
+			"user": "",					/* Account username */
+			"pass": "",					/* Account password */
+			"accid": 0000,  			/* Account number */
+			"bankid": null,				/* Bank routing number (if bank account) */
+			"acctype": "CREDITCARD",	/* CHECKING || SAVINGS || MONEYMRKT || CREDITCARD */
+			"date_start": 20120601,		/* Statement start date YYYYMMDDHHMMSS */
+			"date_end": 20130616,		/* Statement end date YYYYMMDDHHMMSS */
 			"fid": 10898,
 			"fidorg": "B1",
-			"url": "https://ofx.chase.com",
-			"date_start": 20120601,
-			"date_end": 20130616
+			"url": "https://ofx.chase.com"
 		},
 		"Amex": {
-			"user": "",		/* Account username */
-			"pass": "",		/* Account password */
-			"accid": 0000,  /* Account number */
-			"bankid": null,	/* Bank routing number (if bank account) */
-			"acctype": "CREDITCARD",
+			"user": "",					/* Account username */
+			"pass": "",					/* Account password */
+			"accid": 0000,  			/* Account number */
+			"bankid": null,				/* Bank routing number (if bank account) */
+			"acctype": "CREDITCARD",	/* CHECKING || SAVINGS || MONEYMRKT || CREDITCARD */
+			"date_start": 20120601,		/* Statement start date YYYYMMDDHHMMSS */
+			"date_end": 20130616,		/* Statement end date YYYYMMDDHHMMSS */
 			"fid": 3101,
 			"fidorg": "AMEX",
-			"url": "https://online.americanexpress.com/myca/ofxdl/desktop/desktopDownload.do?request_type=nl_ofxdownload",
-			"date_start": 20120601,
-			"date_end": 20130616
+			"url": "https://online.americanexpress.com/myca/ofxdl/desktop/desktopDownload.do?request_type=nl_ofxdownload"
 		}
 	}
 
