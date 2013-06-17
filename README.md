@@ -1,40 +1,45 @@
 ##BankRun
 
-Node.js package template.
-
-###Goals
-
-* Use widely accepted practices and libraries
-* Automate the creation and renaming of projects
-* Projects share git history for easy updates
-* Add functionality through template [branches](https://github.com/winton/bank-run/branches)
+See where your money goes.
 
 ###Install
 
 	npm install bank-run -g
 
-###Create a new project
+###Create a configuration JSON file
 
-	bank-run <project-name> <branch>
+	{
+		"Chase": {
+			"user": "",		/* Account username */
+			"pass": "",		/* Account password */
+			"accid": 0000,  /* Account number */
+			"bankid": null,	/* Bank routing number (if bank account) */
+			"acctype": "CREDITCARD",
+			"fid": 10898,
+			"fidorg": "B1",
+			"url": "https://ofx.chase.com",
+			"date_start": 20120601,
+			"date_end": 20130616
+		},
+		"Amex": {
+			"user": "",		/* Account username */
+			"pass": "",		/* Account password */
+			"accid": 0000,  /* Account number */
+			"bankid": null,	/* Bank routing number (if bank account) */
+			"acctype": "CREDITCARD",
+			"fid": 3101,
+			"fidorg": "AMEX",
+			"url": "https://online.americanexpress.com/myca/ofxdl/desktop/desktopDownload.do?request_type=nl_ofxdownload",
+			"date_start": 20120601,
+			"date_end": 20130616
+		}
+	}
 
-Available branches:
+[Find your bank information here](http://www.ofxhome.com/index.php/home/directory).
 
-* **master** - Base npm package template *(default)*
-* [**bookshelf**](https://github.com/winton/bank-run/tree/bookshelf) - Bookshelf.js database ORM
-* [**express**](https://github.com/winton/bank-run/tree/express) - Express.js web server
-* [**bookshelf-express**](https://github.com/winton/bank-run/tree/bookshelf-express) - Bookshelf + Express
+###Execute bank-run
 
-###Start working
-
-Run `grunt` to watch for changes in `src` and compile them to `lib`.
-
-Run `npm test` to execute your test suite.
-
-### Contribute
-
-[Create an issue](https://github.com/winton/bank-run/issues/new) to discuss template changes.
-
-Pull requests for template changes and new branches are even better.
+	bank-run <path-to-json> <sort:amount|count>
 
 ### Stay up to date
 
