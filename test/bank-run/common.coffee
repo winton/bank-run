@@ -1,6 +1,6 @@
-Common = require("../../lib/node-template/common")
+Common = require("../../lib/bank-run/common")
 
-describe 'NodeTemplate::Common', ->
+describe 'BankRun::Common', ->
   describe '#defer', ->
     it 'should resolve', (done) ->
       fn = ->

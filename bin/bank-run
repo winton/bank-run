@@ -1,0 +1,8 @@
+#!/usr/bin/env node
+(function() {
+  var BankRun;
+
+  BankRun = require("../lib/bank-run");
+  new BankRun(process.argv[2], process.argv[3]);
+
+}).call(this);

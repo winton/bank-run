@@ -1,4 +1,5 @@
 common =
+  Bank: require('banking')
   fs  : require('fs')
   path: require('path')
   Q   : require('q')
