@@ -1,6 +1,8 @@
 ##BankRun
 
-See where your money goes.
+Basic statistics about your bank/credit transactions.
+
+BankRun uses your bank's OFX provider to download and analyze transaction data directly from your machine.
 
 ###Install
 
