@@ -1,38 +1,38 @@
 {
-    "name": "bank-run",
-    "version": "0.1.0",
-    "author": "Winton Welsh <mail@wintoni.us>",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/winton/bank-run.git"
-    },
-    "dependencies": {
-        "banking": "git+https://github.com/winton/banking.js.git",
-        "q": "",
-        "underscore": ""
-    },
-    "devDependencies": {
-        "chai": "",
-        "coffee-script": "",
-        "glob": "",
-        "grunt": "",
-        "grunt-contrib-coffee": "",
-        "grunt-contrib-watch": "",
-        "grunt-merge": "",
-        "grunt-release": "",
-        "grunt-rename": "",
-        "grunt-text-replace": "",
-        "mocha": "",
-        "prompt": "",
-        "source-map-support": "",
-        "sinon": ""
-    },
-    "bin": {
-        "bank-run": "./bin/bank-run"
-    },
-    "license": "MIT",
-    "main": "./lib/bank-run.js",
-    "scripts": {
-        "test": "mocha test/test.js --reporter spec"
-    }
+  "name": "bank-run",
+  "version": "0.1.1",
+  "author": "Winton Welsh <mail@wintoni.us>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/winton/bank-run.git"
+  },
+  "dependencies": {
+    "banking": "git+https://github.com/winton/banking.js.git",
+    "q": "",
+    "underscore": ""
+  },
+  "devDependencies": {
+    "chai": "",
+    "coffee-script": "",
+    "glob": "",
+    "grunt": "",
+    "grunt-contrib-coffee": "",
+    "grunt-contrib-watch": "",
+    "grunt-merge": "",
+    "grunt-release": "",
+    "grunt-rename": "",
+    "grunt-text-replace": "",
+    "mocha": "",
+    "prompt": "",
+    "source-map-support": "",
+    "sinon": ""
+  },
+  "bin": {
+    "bank-run": "./bin/bank-run"
+  },
+  "license": "MIT",
+  "main": "./lib/bank-run.js",
+  "scripts": {
+    "test": "mocha test/test.js --reporter spec"
+  }
 }
