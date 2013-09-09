@@ -1,6 +1,10 @@
 ##BankRun
 
-See where your money goes.
+[![NPM version](https://badge.fury.io/js/bank-run.png)](http://badge.fury.io/js/bank-run)
+
+Basic statistics about your bank/credit transactions.
+
+BankRun uses your bank's OFX provider to download and analyze transaction data directly from your machine.
 
 ###Install
 
