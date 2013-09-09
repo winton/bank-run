@@ -43,7 +43,12 @@ BankRun uses your bank's OFX provider to download and analyze transaction data d
 
 ###Execute bank-run
 
-	bank-run <path-to-json> <sort:amount|count>
+	bank-run <path-to-json> <amount|count>
+
+For example:
+
+	bank-run ~/Documents/bank-run.json amount
+	bank-run ~/Documents/bank-run.json count
 
 ### Stay up to date
 
